@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{cf8ddc54-4189-0272-0d17-10148df63005}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Core.Runtime", "Unity.RenderPipelines.Core.Runtime.csproj", "{b53a173a-689f-bfe7-3147-94ed78443503}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.csproj", "{4ca550e1-ec57-0b3d-1447-be7b240a7104}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{cf8ddc54-4189-0272-0d17-10148df63005}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Mathematics", "Unity.Mathematics.csproj", "{1111c99d-1388-78b5-91cc-e4c20a0276b7}"
 EndProject
@@ -72,12 +72,12 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{cf8ddc54-4189-0272-0d17-10148df63005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{cf8ddc54-4189-0272-0d17-10148df63005}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{b53a173a-689f-bfe7-3147-94ed78443503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{b53a173a-689f-bfe7-3147-94ed78443503}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4ca550e1-ec57-0b3d-1447-be7b240a7104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4ca550e1-ec57-0b3d-1447-be7b240a7104}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{cf8ddc54-4189-0272-0d17-10148df63005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{cf8ddc54-4189-0272-0d17-10148df63005}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1111c99d-1388-78b5-91cc-e4c20a0276b7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1111c99d-1388-78b5-91cc-e4c20a0276b7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{b75f68e2-bc80-0040-6596-b4b076051b85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
