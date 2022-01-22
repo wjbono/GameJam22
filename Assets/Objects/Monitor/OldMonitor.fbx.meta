@@ -1,9 +1,44 @@
 fileFormatVersion: 2
 guid: 17e12cabf5033436f81f4a72248922b4
 ModelImporter:
-  serializedVersion: 20200
+  serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlackDriveInterior
+    second: {fileID: 2100000, guid: 6db72147a925ef64f8530bd312e1f115, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CRTBackplane
+    second: {fileID: 2100000, guid: ec4de4877b22bee42ae06573b4c04a97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompyPlastic
+    second: {fileID: 2100000, guid: c6414e7200ee8df469eaec8c4a5c174c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DriveLightEmmiter
+    second: {fileID: 2100000, guid: 35b21c7f79954294ab44d2ecf7368afa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DriveLightFilter
+    second: {fileID: 2100000, guid: 585489c9478a891419ce4748de1d3942, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SwitchPlastic
+    second: {fileID: 2100000, guid: d92de877e0bd32449ad33ff20569bdd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TVGlass
+    second: {fileID: 2100000, guid: a89ab1cc76a00f04aa56994f72977527, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -14,6 +49,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -43,6 +79,7 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
     fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -54,6 +91,7 @@ ModelImporter:
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
+    optimizeBones: 1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
