@@ -1,0 +1,1349 @@
+Unity Editor version:    2020.3.26f1 (7298b473bc1a)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.1 (Build 21C52)
+Darwin version:          21.2.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/wjbono/Unity Projects/GGJ22
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58573
+Successfully changed project path to: /Users/wjbono/Unity Projects/GGJ22
+/Users/wjbono/Unity Projects/GGJ22
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 62.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/wjbono/Unity Projects/GGJ22/Assets
+GfxDevice: creating device client; threaded=0
+2022-01-21 16:52:47.009 Unity[87371:599683] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+2022-01-21 16:52:47.009 Unity[87371:599683] Metal devices available: 2
+2022-01-21 16:52:47.009 Unity[87371:599683] 0: AMD Radeon Pro 5300M (high power)
+2022-01-21 16:52:47.009 Unity[87371:599683] 1: Intel(R) UHD Graphics 630 (low power)
+2022-01-21 16:52:47.009 Unity[87371:599683] Forcing user selected device: AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56371
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.26f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005456 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 46.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.630 seconds
+Domain Reload Profiling:
+	ReloadAssembly (630ms)
+		BeginReloadAssembly (46ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (507ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (209ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (30ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010343 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 47.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.204 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1205ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (999ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (353ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (364ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.000227 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.000249 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+2022-01-21 16:52:56.541 Unity[87371:599683] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001127b80 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-01-21 16:52:56.544 Unity[87371:599683] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000011305b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2895 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.8 MB.
+System memory in use after: 236.9 MB.
+
+Unloading 135 unused Assets to reduce memory usage. Loaded Objects now: 3354.
+Total: 4.020015 ms (FindLiveObjects: 0.241840 ms CreateObjectMapping: 0.128020 ms MarkObjects: 2.882922 ms  DeleteObjects: 0.766375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Objects
+  artifactKey: Guid(4ee072579fe5e47879708a8f4fb32918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects using Guid(4ee072579fe5e47879708a8f4fb32918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9e7d2be9f5aa5e905b742d783c5d81') in 0.004706 seconds 
+  Import took 0.008324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.441383 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk.fbx
+  artifactKey: Guid(f59ebad2b0e0b42718988edb5e258821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk.fbx using Guid(f59ebad2b0e0b42718988edb5e258821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6919a4b854c66f9aa6dd01fb976d91') in 1.393669 seconds 
+  Import took 1.402290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Ringer_AlbedoTransparency.png
+  artifactKey: Guid(f6558ecdfa1fe4f12ad1bd99f3a3fbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Ringer_AlbedoTransparency.png using Guid(f6558ecdfa1fe4f12ad1bd99f3a3fbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3958023ee38a5451761f1365ebed8c9b') in 0.900705 seconds 
+  Import took 0.908666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Hammer_AlbedoTransparency.png
+  artifactKey: Guid(45d8a4e259d734be8872e52afb4ed1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Hammer_AlbedoTransparency.png using Guid(45d8a4e259d734be8872e52afb4ed1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5b14c5639f32673e7377364a29fb4e') in 0.013190 seconds 
+  Import took 0.017368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Face_Emission.png
+  artifactKey: Guid(bc28eea7f26f64ad2be5089c260dc120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Face_Emission.png using Guid(bc28eea7f26f64ad2be5089c260dc120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd272956c2f30d30a396de5a5a8878b0f') in 0.012272 seconds 
+  Import took 0.016558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskGlow_Normal_Raw.png
+  artifactKey: Guid(b22d65a360a534f2cae0e132a1b0fe50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskGlow_Normal_Raw.png using Guid(b22d65a360a534f2cae0e132a1b0fe50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0914ebd5010c7bbd9442391374cc4087') in 0.011333 seconds 
+  Import took 0.016001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Hands_Normal.png
+  artifactKey: Guid(be417009505124b84bdd59412470da78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Hands_Normal.png using Guid(be417009505124b84bdd59412470da78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a38c8eade5a4d61a65e9c3c2d958a16') in 0.010771 seconds 
+  Import took 0.015628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Ringer_MetallicSmoothness.png
+  artifactKey: Guid(6bce73d2737804e0fb3911c8ecc67039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Ringer_MetallicSmoothness.png using Guid(6bce73d2737804e0fb3911c8ecc67039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d36c54c7f7ee4643eb9ff1feb7fd39') in 0.017419 seconds 
+  Import took 0.021629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskGlass_Height_Raw.png
+  artifactKey: Guid(453ddf4b0dff541518056d2109d1a99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskGlass_Height_Raw.png using Guid(453ddf4b0dff541518056d2109d1a99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d3ca4db8247e890ea2568635565eb7') in 0.011064 seconds 
+  Import took 0.015219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskGlass_Metallic_Raw.png
+  artifactKey: Guid(70137e2ca30c44a2497be0f4dd0eaead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskGlass_Metallic_Raw.png using Guid(70137e2ca30c44a2497be0f4dd0eaead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a886ee2390478a9af200c200dbf2cec') in 0.010885 seconds 
+  Import took 0.015435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Prism Glass.001_AlbedoTransparency.png
+  artifactKey: Guid(69f6ebcc7915944b2bf0c3b3ce8a83dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Prism Glass.001_AlbedoTransparency.png using Guid(69f6ebcc7915944b2bf0c3b3ce8a83dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39f170c4ebaf614c9aab6a65db8c721') in 0.014218 seconds 
+  Import took 0.019260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskGlass_Emissive_sRGB.png
+  artifactKey: Guid(ef3599c22c5cc4824b272cbd42d716d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskGlass_Emissive_sRGB.png using Guid(ef3599c22c5cc4824b272cbd42d716d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d33fcd461cb1e928a8f7ce52c9eb91b') in 0.011416 seconds 
+  Import took 0.016595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskWood_Roughness_Raw.png
+  artifactKey: Guid(3144a2bc28ad74781b8ce84fda052ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskWood_Roughness_Raw.png using Guid(3144a2bc28ad74781b8ce84fda052ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a298f3e15b24b92c3db0ad09a4034bcf') in 0.013645 seconds 
+  Import took 0.019218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Objects/Clocky2000/Clock_clock_AlbedoTransparency.png
+  artifactKey: Guid(bf312261a7bdd452888ab41d78339a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_clock_AlbedoTransparency.png using Guid(bf312261a7bdd452888ab41d78339a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e065403fbe93ab03a9f674f180671c4d') in 0.013246 seconds 
+  Import took 0.019513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Hands_Emission.png
+  artifactKey: Guid(fa20101b53eab49bf89455044898a667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Hands_Emission.png using Guid(fa20101b53eab49bf89455044898a667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78448e46ca26c655f7f5ef15eaf42b16') in 0.012246 seconds 
+  Import took 0.018788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskMetal_Roughness_Raw.png
+  artifactKey: Guid(b27607dc732124d86ab9f299d40ba240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskMetal_Roughness_Raw.png using Guid(b27607dc732124d86ab9f299d40ba240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90276e203266eb98036da8b4b58288c') in 0.012294 seconds 
+  Import took 0.017157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskGlow_Metallic_Raw.png
+  artifactKey: Guid(0b6314ee77826448cb6afd1297bf9c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskGlow_Metallic_Raw.png using Guid(0b6314ee77826448cb6afd1297bf9c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbfb54270f4d4df18f4d33cbc71960e7') in 0.009687 seconds 
+  Import took 0.013867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Prism Glass.001_MetallicSmoothness.png
+  artifactKey: Guid(ee459ce7f01d84f608922b804fc058d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Prism Glass.001_MetallicSmoothness.png using Guid(ee459ce7f01d84f608922b804fc058d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c004df17b85a5f5720aaff651fbb536') in 0.016733 seconds 
+  Import took 0.021086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskWood_BaseColor_sRGB.png
+  artifactKey: Guid(c09670c509f44496e977651357f7b1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskWood_BaseColor_sRGB.png using Guid(c09670c509f44496e977651357f7b1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011728fa327dbe5cfcec492af3ed27e1') in 0.011925 seconds 
+  Import took 0.018073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskMetal_Normal_Raw.png
+  artifactKey: Guid(f42904d024fbf43d3b3521cb65c8225e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskMetal_Normal_Raw.png using Guid(f42904d024fbf43d3b3521cb65c8225e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8f3253dec2c774e0b0aa64895a7716') in 0.011515 seconds 
+  Import took 0.016000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskMetal_Metallic_Raw.png
+  artifactKey: Guid(425fa674ca73f4a8492bd9392b91012c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskMetal_Metallic_Raw.png using Guid(425fa674ca73f4a8492bd9392b91012c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f5daebdec300d112fa01ab47833fbc') in 0.011251 seconds 
+  Import took 0.017100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskGlass_Normal_Raw.png
+  artifactKey: Guid(b312b8d3ccbff4fbfac37835eea0a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskGlass_Normal_Raw.png using Guid(b312b8d3ccbff4fbfac37835eea0a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e173c75f164e3c8050e4ab71564bc5f') in 0.012790 seconds 
+  Import took 0.017987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Face_AlbedoTransparency.png
+  artifactKey: Guid(bc79c8e98908a40219dcd51a1b322a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Face_AlbedoTransparency.png using Guid(bc79c8e98908a40219dcd51a1b322a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb6a46541b98704bbf470fafb956eb5') in 0.009045 seconds 
+  Import took 0.013457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskMetal_BaseColor_sRGB.png
+  artifactKey: Guid(dcb3bde9613d2463caaeef48612a2af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskMetal_BaseColor_sRGB.png using Guid(dcb3bde9613d2463caaeef48612a2af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288e6bce760178f695e39b669eeb87b0') in 0.014581 seconds 
+  Import took 0.019976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000704 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskGlow_Emissive_sRGB.png
+  artifactKey: Guid(01e1ab3e93f5c45909d3fc16129c03af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskGlow_Emissive_sRGB.png using Guid(01e1ab3e93f5c45909d3fc16129c03af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a0160f98a17777386decd366c3705a') in 0.017277 seconds 
+  Import took 0.023342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Face_Normal.png
+  artifactKey: Guid(5fc07d82854844f26afb326895d5aa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Face_Normal.png using Guid(5fc07d82854844f26afb326895d5aa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac098d4b48060e4657530b09a56a4c7d') in 0.011310 seconds 
+  Import took 0.016255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Objects/Clocky2000/Clock_clock_MetallicSmoothness.png
+  artifactKey: Guid(20e0be9a779244459a62dea15a64da19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_clock_MetallicSmoothness.png using Guid(20e0be9a779244459a62dea15a64da19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba331f3e91df93bc56b904509057361') in 0.012163 seconds 
+  Import took 0.016742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskGlow_Roughness_Raw.png
+  artifactKey: Guid(2a47d90bc06c2426bb8d46c388f069dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskGlow_Roughness_Raw.png using Guid(2a47d90bc06c2426bb8d46c388f069dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf7d224355386bb9cfc911884ddace4') in 0.016218 seconds 
+  Import took 0.021108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Hammer_MetallicSmoothness.png
+  artifactKey: Guid(c8e8a1604a0eb4ef19952c409386b7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Hammer_MetallicSmoothness.png using Guid(c8e8a1604a0eb4ef19952c409386b7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce94976572479df01f54104ede958cfd') in 0.017415 seconds 
+  Import took 0.022903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Prism Glass.001_Normal.png
+  artifactKey: Guid(0dfbd9d190cc34ddd9e18e9e20006b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Prism Glass.001_Normal.png using Guid(0dfbd9d190cc34ddd9e18e9e20006b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34667d95712cc1c4b7e7a99ee27ddcb') in 0.013602 seconds 
+  Import took 0.018444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Objects/Clocky2000/Clock_clock_Normal.png
+  artifactKey: Guid(242ec11f3e19d46b1bc3826ce3ba6e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_clock_Normal.png using Guid(242ec11f3e19d46b1bc3826ce3ba6e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008438b3766876321faa4723748c5336') in 0.011262 seconds 
+  Import took 0.015311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Hands_MetallicSmoothness.png
+  artifactKey: Guid(a85bff173f3b542389addc7287e57d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Hands_MetallicSmoothness.png using Guid(a85bff173f3b542389addc7287e57d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd4b7ccaed2375b5159bc2fe6a6068b') in 0.015492 seconds 
+  Import took 0.021193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Hands_AlbedoTransparency.png
+  artifactKey: Guid(7d3540b5009f04cd1b9be3c0bad7f8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Hands_AlbedoTransparency.png using Guid(7d3540b5009f04cd1b9be3c0bad7f8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4d179c355adabbc2c3ce0df4cb2867') in 0.013618 seconds 
+  Import took 0.020108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskWood_Metallic_Raw.png
+  artifactKey: Guid(0d107088d14e3420d82a9398b84f7d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskWood_Metallic_Raw.png using Guid(0d107088d14e3420d82a9398b84f7d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b02d6067db497eaf571c6a185fac5d') in 0.009981 seconds 
+  Import took 0.014732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Objects/Clocky2000/Clock.fbx
+  artifactKey: Guid(07a723398ef064e4a859cbeb18a761fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock.fbx using Guid(07a723398ef064e4a859cbeb18a761fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e63db1a8c88f18595641739a09b0749') in 0.064037 seconds 
+  Import took 0.069180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskGlass_Roughness_Raw.png
+  artifactKey: Guid(545f0a0dd97594c0294c9017d334c96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskGlass_Roughness_Raw.png using Guid(545f0a0dd97594c0294c9017d334c96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d12422fe0efe28add8a1c6b2593c9a5') in 0.014165 seconds 
+  Import took 0.018888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskMetal_Height_Raw.png
+  artifactKey: Guid(d2d60d182176a46c1aa97efff42350e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskMetal_Height_Raw.png using Guid(d2d60d182176a46c1aa97efff42350e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a68b4144bb583e01b5806418d73a4b8') in 0.009436 seconds 
+  Import took 0.014083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Face_MetallicSmoothness.png
+  artifactKey: Guid(481501eb956ac44ca8d5f88cde4da254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Face_MetallicSmoothness.png using Guid(481501eb956ac44ca8d5f88cde4da254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2deb47b5ad71d6ba0ed6f57e520b38') in 0.013721 seconds 
+  Import took 0.018433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Ringer_Normal.png
+  artifactKey: Guid(b59e3f38bf6024559be1e689105e3fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Ringer_Normal.png using Guid(b59e3f38bf6024559be1e689105e3fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cf0045d1c082e8ae791577fb4cc068') in 0.008835 seconds 
+  Import took 0.013318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskWood_Emissive_sRGB.png
+  artifactKey: Guid(fa095866e2ca14ee68c1674daf7ee7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskWood_Emissive_sRGB.png using Guid(fa095866e2ca14ee68c1674daf7ee7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c8694e26df0c8cc21b3f2ac1322638') in 0.012697 seconds 
+  Import took 0.019287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskWood_Height_Raw.png
+  artifactKey: Guid(45fa1824184f147598baaaf583d30c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskWood_Height_Raw.png using Guid(45fa1824184f147598baaaf583d30c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03854cf32d9da6f7026804b87814d155') in 0.011129 seconds 
+  Import took 0.016090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskGlow_BaseColor_sRGB.png
+  artifactKey: Guid(ecc38dbb16e424108bab9d59d312a3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskGlow_BaseColor_sRGB.png using Guid(ecc38dbb16e424108bab9d59d312a3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc2cbd65cd0e01e046cde2f14e0f64a') in 0.011393 seconds 
+  Import took 0.017995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Hammer_Normal.png
+  artifactKey: Guid(9c3d7b8d2a4964c4786fbfcb6652d701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Hammer_Normal.png using Guid(9c3d7b8d2a4964c4786fbfcb6652d701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7479ea57959b4a6418766e6c5b48823b') in 0.012783 seconds 
+  Import took 0.017698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskGlow_Height_Raw.png
+  artifactKey: Guid(728d9ee0bff4b45b1a93ec598b5a7779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskGlow_Height_Raw.png using Guid(728d9ee0bff4b45b1a93ec598b5a7779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2498a359a15de199cc12af143f562f5c') in 0.014227 seconds 
+  Import took 0.020210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskMetal_Emissive_sRGB.png
+  artifactKey: Guid(365b14c589aa0463ba720642043fb5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskMetal_Emissive_sRGB.png using Guid(365b14c589aa0463ba720642043fb5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d99d17ca3bce20d600836eca8e03eb0') in 0.013230 seconds 
+  Import took 0.020069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskWood_Normal_Raw.png
+  artifactKey: Guid(7b850ba733d0f45b48ff17c4355166d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskWood_Normal_Raw.png using Guid(7b850ba733d0f45b48ff17c4355166d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b93cba050eabac1d82cdf7f6d9ea892') in 0.009396 seconds 
+  Import took 0.013776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskGlass_BaseColor_sRGB.png
+  artifactKey: Guid(1b60bb72efed74ad980d46575520705e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskGlass_BaseColor_sRGB.png using Guid(1b60bb72efed74ad980d46575520705e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f6b500d5621734b40461746e4b0226') in 0.018801 seconds 
+  Import took 0.023175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.854571 seconds.
+  path: Assets/Objects/Corkscrew/Corkscrew.fbx
+  artifactKey: Guid(5c7a2cb98e9e04b958c5b5d964192160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Corkscrew/Corkscrew.fbx using Guid(5c7a2cb98e9e04b958c5b5d964192160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc629d93a07bbb46b98f1cf4dbec0bab') in 0.050366 seconds 
+  Import took 0.055608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Objects/Corkscrew/corkscrew_Metal_AlbedoTransparency.png
+  artifactKey: Guid(cb5260df0b7c64f65ae2caaa2834e8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Corkscrew/corkscrew_Metal_AlbedoTransparency.png using Guid(cb5260df0b7c64f65ae2caaa2834e8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68863abd35e02d38e8fc1153717f01c3') in 0.014586 seconds 
+  Import took 0.019083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Objects/Corkscrew/corkscrew_Metal_Normal.png
+  artifactKey: Guid(7682ea1e13765467ab46c48dbe127bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Corkscrew/corkscrew_Metal_Normal.png using Guid(7682ea1e13765467ab46c48dbe127bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d0d0ee21a5b27c20f4c8f367578ef0') in 0.010737 seconds 
+  Import took 0.015506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Objects/Corkscrew/corkscrew_Wood_AlbedoTransparency.png
+  artifactKey: Guid(c6323678a982c4261942aab61ca95ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Corkscrew/corkscrew_Wood_AlbedoTransparency.png using Guid(c6323678a982c4261942aab61ca95ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4c52e01e19be17b5927798de36ca2c') in 0.010268 seconds 
+  Import took 0.015142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Objects/Corkscrew/corkscrew_Wood_Normal.png
+  artifactKey: Guid(6706aa6a293ee4a899a78dba0cf52c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Corkscrew/corkscrew_Wood_Normal.png using Guid(6706aa6a293ee4a899a78dba0cf52c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a720539a18a80da08222ee5360e1d74') in 0.009906 seconds 
+  Import took 0.014149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Objects/Corkscrew/corkscrew_Wood_MetallicSmoothness.png
+  artifactKey: Guid(e89a6d82c76d44547a925cb0c205f26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Corkscrew/corkscrew_Wood_MetallicSmoothness.png using Guid(e89a6d82c76d44547a925cb0c205f26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd767e6f67c4dc9247941786f46053c') in 0.012245 seconds 
+  Import took 0.016688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Objects/Corkscrew/corkscrew_Metal_MetallicSmoothness.png
+  artifactKey: Guid(18d61689467c44e1c86a285b7ae323e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Corkscrew/corkscrew_Metal_MetallicSmoothness.png using Guid(18d61689467c44e1c86a285b7ae323e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e897d0f7ccad2bcc044b05c7747b9024') in 0.012409 seconds 
+  Import took 0.016875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.092128 seconds.
+  path: Assets/Objects/FaceMask/FaceMask.fbx
+  artifactKey: Guid(30c21faae8677482e8438f86a7fadf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/FaceMask/FaceMask.fbx using Guid(30c21faae8677482e8438f86a7fadf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eeb363d81c6e41215fd719123b4607b') in 0.047159 seconds 
+  Import took 0.052649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Objects/FaceMask/FaceMask_FABRIC_2_FRONT_4322_MetallicSmoothness.png
+  artifactKey: Guid(a09b80e8999d74fa597d20dab7d59913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/FaceMask/FaceMask_FABRIC_2_FRONT_4322_MetallicSmoothness.png using Guid(a09b80e8999d74fa597d20dab7d59913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5f1e85f4add2d1bdad33a5d584065d') in 0.014357 seconds 
+  Import took 0.019580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Objects/FaceMask/FaceMask_FABRIC_2_FRONT_4322_AlbedoTransparency.png
+  artifactKey: Guid(090bd7656c6e049d7bd660c1b6d8118c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/FaceMask/FaceMask_FABRIC_2_FRONT_4322_AlbedoTransparency.png using Guid(090bd7656c6e049d7bd660c1b6d8118c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8daaecf93ddad1d0cd3f378e139bbd6e') in 0.010701 seconds 
+  Import took 0.016129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Objects/FaceMask/FaceMask_FABRIC_1_FRONT_4317_Normal.png
+  artifactKey: Guid(3a641cee5bc424a7f962cb92e1dacd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/FaceMask/FaceMask_FABRIC_1_FRONT_4317_Normal.png using Guid(3a641cee5bc424a7f962cb92e1dacd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe76ba87b08a8519b1b4208d5d274db') in 0.010205 seconds 
+  Import took 0.014463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Objects/FaceMask/FaceMask_FABRIC_1_FRONT_4317_MetallicSmoothness.png
+  artifactKey: Guid(cb9a0426516754dc7b12c1b60f87e280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/FaceMask/FaceMask_FABRIC_1_FRONT_4317_MetallicSmoothness.png using Guid(cb9a0426516754dc7b12c1b60f87e280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c8766b6cd2bda924ad2b5d67e19402') in 0.014837 seconds 
+  Import took 0.018957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Objects/FaceMask/FaceMask_FABRIC_2_FRONT_4322_Normal.png
+  artifactKey: Guid(3cb942622312446ccb7937e9dc8cd701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/FaceMask/FaceMask_FABRIC_2_FRONT_4322_Normal.png using Guid(3cb942622312446ccb7937e9dc8cd701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146e792652bea2386f817c655379f870') in 0.011369 seconds 
+  Import took 0.015813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Objects/FaceMask/FaceMask_FABRIC_1_FRONT_4317_AlbedoTransparency.png
+  artifactKey: Guid(bd07c5b1d73454370883cff8d2f32b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/FaceMask/FaceMask_FABRIC_1_FRONT_4317_AlbedoTransparency.png using Guid(bd07c5b1d73454370883cff8d2f32b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68782da5fef40388faaa3cc115e73318') in 0.010854 seconds 
+  Import took 0.015486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.397713 seconds.
+  path: Assets/Objects/Glasses-Broken/Glasses.fbx
+  artifactKey: Guid(6d1a734075b1b41439e8da2211375284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Glasses-Broken/Glasses.fbx using Guid(6d1a734075b1b41439e8da2211375284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b77194680f02e84ba040a4b11332f0d') in 0.053429 seconds 
+  Import took 0.058549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Objects/Glasses-Broken/Glasses_Hardware_MetallicSmoothness.png
+  artifactKey: Guid(b50068b8f285b4dfc97bdfd325aeed44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Glasses-Broken/Glasses_Hardware_MetallicSmoothness.png using Guid(b50068b8f285b4dfc97bdfd325aeed44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd19ea27cba7e8f9086960168a9cc195') in 0.015264 seconds 
+  Import took 0.019275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Objects/Glasses-Broken/Glasses_Lenses_Normal.png
+  artifactKey: Guid(5a1c0f8c6342d402a9a1f86ea563f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Glasses-Broken/Glasses_Lenses_Normal.png using Guid(5a1c0f8c6342d402a9a1f86ea563f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03a13e29732ce23d9ebad1cf869d1cf') in 0.009438 seconds 
+  Import took 0.014118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Objects/Glasses-Broken/Glasses_Lenses_AlbedoTransparency.png
+  artifactKey: Guid(aa78021220899406d9b3e3a3637ae916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Glasses-Broken/Glasses_Lenses_AlbedoTransparency.png using Guid(aa78021220899406d9b3e3a3637ae916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26997f4112a042e0280c80031f680d0f') in 0.013589 seconds 
+  Import took 0.018678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Objects/Glasses-Broken/Glasses_Lenses_MetallicSmoothness.png
+  artifactKey: Guid(25ecd0f94d13d454f8d5c5d46ff3e46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Glasses-Broken/Glasses_Lenses_MetallicSmoothness.png using Guid(25ecd0f94d13d454f8d5c5d46ff3e46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa61a68e8d67910ad473bb94458f4dad') in 0.014275 seconds 
+  Import took 0.018790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Objects/Glasses-Broken/Glasses_Frame_MetallicSmoothness.png
+  artifactKey: Guid(36ffbf26d571f40258e6ff40b041aa0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Glasses-Broken/Glasses_Frame_MetallicSmoothness.png using Guid(36ffbf26d571f40258e6ff40b041aa0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a639b62405b415e5063d7bd07f699586') in 0.015077 seconds 
+  Import took 0.020235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Objects/Glasses-Broken/Glasses_Frame_Normal.png
+  artifactKey: Guid(8ea8c77a0227047df8729f27cf0cdcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Glasses-Broken/Glasses_Frame_Normal.png using Guid(8ea8c77a0227047df8729f27cf0cdcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6967c7bd1bc617b241be05117844b56b') in 0.013301 seconds 
+  Import took 0.019777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Objects/Glasses-Broken/Glasses_Hardware_AlbedoTransparency.png
+  artifactKey: Guid(6cbb66fb2325b4f3a94029f80ccca9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Glasses-Broken/Glasses_Hardware_AlbedoTransparency.png using Guid(6cbb66fb2325b4f3a94029f80ccca9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c5c95b035f5ce0f33a4df7e3ed6aba') in 0.012866 seconds 
+  Import took 0.019845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Objects/Glasses-Broken/Glasses_Frame_AlbedoTransparency.png
+  artifactKey: Guid(fd0dac8df4b9340369d529b5fe20b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Glasses-Broken/Glasses_Frame_AlbedoTransparency.png using Guid(fd0dac8df4b9340369d529b5fe20b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5feb0a5f652f91f260e52bc700b68b1') in 0.013303 seconds 
+  Import took 0.018838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Objects/Glasses-Broken/Glasses_Hardware_Normal.png
+  artifactKey: Guid(330f49bed40254cd4b60fc983ef6cf66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Glasses-Broken/Glasses_Hardware_Normal.png using Guid(330f49bed40254cd4b60fc983ef6cf66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdbc0545dabc051782c316a5ce2e2d9') in 0.009572 seconds 
+  Import took 0.014830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.421392 seconds.
+  path: Assets/Objects/Keyboard/Keyboard.fbx
+  artifactKey: Guid(d206eb8ab1777498285be634aae4c10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Keyboard/Keyboard.fbx using Guid(d206eb8ab1777498285be634aae4c10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b96f1330852c6f6c85608035225e603') in 0.030799 seconds 
+  Import took 0.035953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Objects/Keyboard/Keyboard_05 - Default_MetallicSmoothness_Raw.png
+  artifactKey: Guid(d1034d7877576460b860c01cc0564f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Keyboard/Keyboard_05 - Default_MetallicSmoothness_Raw.png using Guid(d1034d7877576460b860c01cc0564f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead7267d3ef871f698d5dc675b539f4e') in 0.016188 seconds 
+  Import took 0.021054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Objects/Keyboard/Keyboard_05 - Default_Emission_sRGB.png
+  artifactKey: Guid(dd699859297ad4e6f87e3d07e0c5a12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Keyboard/Keyboard_05 - Default_Emission_sRGB.png using Guid(dd699859297ad4e6f87e3d07e0c5a12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1625a612ad02408984a70ee907574f19') in 0.009533 seconds 
+  Import took 0.014313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Objects/Keyboard/Keyboard_05 - Default_AlbedoTransparency_sRGB.png
+  artifactKey: Guid(cb369e42cd7a246b8ad5259dc6374c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Keyboard/Keyboard_05 - Default_AlbedoTransparency_sRGB.png using Guid(cb369e42cd7a246b8ad5259dc6374c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc125c7dce635eb1a29c6f2b06051070') in 0.011082 seconds 
+  Import took 0.015538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Objects/Keyboard/Keyboard_05 - Default_Normal_Raw.png
+  artifactKey: Guid(e2d9f58a6d805458a8fd0999e45b3a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Keyboard/Keyboard_05 - Default_Normal_Raw.png using Guid(e2d9f58a6d805458a8fd0999e45b3a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa87917c0ac40f6ef21cc0d94df341bb') in 0.012971 seconds 
+  Import took 0.017707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.261404 seconds.
+  path: Assets/Objects/Monitor/OldMonitor.fbx
+  artifactKey: Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor.fbx using Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b44b9b29b2786585c077f609a7caee2') in 0.172127 seconds 
+  Import took 0.177470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_SwitchPlastic_AlbedoTransparency_sRGB.png
+  artifactKey: Guid(0c2844af434c64a9b98922894dced2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_SwitchPlastic_AlbedoTransparency_sRGB.png using Guid(0c2844af434c64a9b98922894dced2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f702209ada8f3f2413630b8e569764b1') in 0.027319 seconds 
+  Import took 0.031708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_CRTBackplane_Emission_sRGB.png
+  artifactKey: Guid(139e89d313c5745ac86df2adee1c97c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_CRTBackplane_Emission_sRGB.png using Guid(139e89d313c5745ac86df2adee1c97c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c35bcd095a27dfc05135d5b488ed1f') in 0.010984 seconds 
+  Import took 0.015787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_BlackDriveInterior_MetallicSmoothness_Raw.png
+  artifactKey: Guid(cd5cb6b55fd6444dca5d8617b23df514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_BlackDriveInterior_MetallicSmoothness_Raw.png using Guid(cd5cb6b55fd6444dca5d8617b23df514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1177f4c03789ec8eb0516c7bcde1afcd') in 0.012264 seconds 
+  Import took 0.017145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_DriveLightFilter_AlbedoTransparency_sRGB.png
+  artifactKey: Guid(fa62178f35b914dc0954287bbf2b79d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_DriveLightFilter_AlbedoTransparency_sRGB.png using Guid(fa62178f35b914dc0954287bbf2b79d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffa94fb5ec17ed44fc3cdccbdf3ee5b') in 0.013347 seconds 
+  Import took 0.018272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_SwitchEmiter_AlbedoTransparency_sRGB.png
+  artifactKey: Guid(eb80c28243b544b67bf40a02321d51c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_SwitchEmiter_AlbedoTransparency_sRGB.png using Guid(eb80c28243b544b67bf40a02321d51c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d697c10c06a709aa8eea598bfc735e4') in 0.009487 seconds 
+  Import took 0.013853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_CRTBackplane_Normal_Raw.png
+  artifactKey: Guid(0d6f2a7c242434a89a6596faa6359bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_CRTBackplane_Normal_Raw.png using Guid(0d6f2a7c242434a89a6596faa6359bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c719658035b54c15c3762b9f41497f6') in 0.009583 seconds 
+  Import took 0.013879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Objects/Monitor/OldMonitorLandscape.fbx
+  artifactKey: Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitorLandscape.fbx using Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81886702d1359fb2523d258797e83eb1') in 0.134270 seconds 
+  Import took 0.140110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_TVGlass_MetallicSmoothness_Raw.png
+  artifactKey: Guid(0603c18b80977428c847478b3abec286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_TVGlass_MetallicSmoothness_Raw.png using Guid(0603c18b80977428c847478b3abec286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e54be571298a4d223a2e8d84e9c0d6') in 0.017074 seconds 
+  Import took 0.021402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_CompyPlastic_Emission_sRGB.png
+  artifactKey: Guid(52eec126a5eb0462a887c78496f31ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_CompyPlastic_Emission_sRGB.png using Guid(52eec126a5eb0462a887c78496f31ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec363ab908121973bcb0975e644c8d9') in 0.009300 seconds 
+  Import took 0.014404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_TVGlass_AlbedoTransparency_sRGB.png
+  artifactKey: Guid(4a010ce04448b48ad8db290c75b563ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_TVGlass_AlbedoTransparency_sRGB.png using Guid(4a010ce04448b48ad8db290c75b563ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607c28589756c7a09ff029292745d1f3') in 0.014398 seconds 
+  Import took 0.018695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_DriveLightFilter_MetallicSmoothness_Raw.png
+  artifactKey: Guid(6350d04fef33b4c38bff73ccad0d0905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_DriveLightFilter_MetallicSmoothness_Raw.png using Guid(6350d04fef33b4c38bff73ccad0d0905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8739d98195dcecfafc1d9c8bd1274203') in 0.014505 seconds 
+  Import took 0.020304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_SwitchEmiter_MetallicSmoothness_Raw.png
+  artifactKey: Guid(d82f7ac9a1c0d4de3a9c1bd3b3f63313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_SwitchEmiter_MetallicSmoothness_Raw.png using Guid(d82f7ac9a1c0d4de3a9c1bd3b3f63313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b34819e02c788337aa865276c2ef432') in 0.016327 seconds 
+  Import took 0.020789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_DriveLightEmmiter_AlbedoTransparency_sRGB.png
+  artifactKey: Guid(3555d6564d1eb4bb8b065a7baaff14c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_DriveLightEmmiter_AlbedoTransparency_sRGB.png using Guid(3555d6564d1eb4bb8b065a7baaff14c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15aa1ec89ead20ed6998cc3730bbfa7c') in 0.009404 seconds 
+  Import took 0.014022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_DriveLightFilter_Normal_Raw.png
+  artifactKey: Guid(a1dfb9a6fc64842af87ccf902f93bc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_DriveLightFilter_Normal_Raw.png using Guid(a1dfb9a6fc64842af87ccf902f93bc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c4316147c8ea1b618412138ed0d7ba') in 0.012417 seconds 
+  Import took 0.017083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_DriveLightEmmiter_Normal_Raw.png
+  artifactKey: Guid(8a0115c1b7202469582c7bbace7c07a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_DriveLightEmmiter_Normal_Raw.png using Guid(8a0115c1b7202469582c7bbace7c07a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b539e91965432ba5fbbce87edc223793') in 0.011936 seconds 
+  Import took 0.017443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_CRTBackplane_AlbedoTransparency_sRGB.png
+  artifactKey: Guid(28909256c1dd94462939fb2072806162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_CRTBackplane_AlbedoTransparency_sRGB.png using Guid(28909256c1dd94462939fb2072806162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e756e26772f824f0e2697a41cc4651ad') in 0.014168 seconds 
+  Import took 0.020967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_CRTBackplane_MetallicSmoothness_Raw.png
+  artifactKey: Guid(c4c179e4166f7471c97d3544086d730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_CRTBackplane_MetallicSmoothness_Raw.png using Guid(c4c179e4166f7471c97d3544086d730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65323d4f39501cd1a8256d376431c5c0') in 0.014609 seconds 
+  Import took 0.020213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_DriveLightFilter_Emission_sRGB.png
+  artifactKey: Guid(015fcb3f62ceb4b71ab07653cef6f09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_DriveLightFilter_Emission_sRGB.png using Guid(015fcb3f62ceb4b71ab07653cef6f09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44937adcb07e1f0edc3e0a08aa51b297') in 0.009497 seconds 
+  Import took 0.014560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_SwitchPlastic_Emission_sRGB.png
+  artifactKey: Guid(537b05a11743f44f196972b5b39df057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_SwitchPlastic_Emission_sRGB.png using Guid(537b05a11743f44f196972b5b39df057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c943357992f087b0b408f11ab053c4b5') in 0.016714 seconds 
+  Import took 0.020843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_BlackDriveInterior_AlbedoTransparency_sRGB.png
+  artifactKey: Guid(4753ed9be609f4a589ef1a92dd6ea0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_BlackDriveInterior_AlbedoTransparency_sRGB.png using Guid(4753ed9be609f4a589ef1a92dd6ea0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23229a7dea5ac7f65bf0247bf9849480') in 0.010259 seconds 
+  Import took 0.014395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_SwitchEmiter_Normal_Raw.png
+  artifactKey: Guid(47420b03544c64067a73347d80bdb871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_SwitchEmiter_Normal_Raw.png using Guid(47420b03544c64067a73347d80bdb871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6073b1e37e1369575e1a54a70329900e') in 0.009448 seconds 
+  Import took 0.013571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_BlackDriveInterior_Emission_sRGB.png
+  artifactKey: Guid(b45ad85f3952b45bb89dcc77ed00f3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_BlackDriveInterior_Emission_sRGB.png using Guid(b45ad85f3952b45bb89dcc77ed00f3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839302b60e2e70c33d1c0e055fd9215f') in 0.012090 seconds 
+  Import took 0.016656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_DriveLightEmmiter_MetallicSmoothness_Raw.png
+  artifactKey: Guid(fc485f2fe56b74fb4876ec905037633c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_DriveLightEmmiter_MetallicSmoothness_Raw.png using Guid(fc485f2fe56b74fb4876ec905037633c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705e8b9121571da97a22dca682a153b3') in 0.016838 seconds 
+  Import took 0.021721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_CompyPlastic_MetallicSmoothness_Raw.png
+  artifactKey: Guid(3c70da993fdd440c09dd2849fec6c8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_CompyPlastic_MetallicSmoothness_Raw.png using Guid(3c70da993fdd440c09dd2849fec6c8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f297fdf5b44ecb0757200a79a37c6c29') in 0.014449 seconds 
+  Import took 0.018814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_CompyPlastic_Normal_Raw.png
+  artifactKey: Guid(8a02f27c3006e47f4939fe0add34826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_CompyPlastic_Normal_Raw.png using Guid(8a02f27c3006e47f4939fe0add34826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8baa6d7d93db6c0115d25728c1527e5a') in 0.010004 seconds 
+  Import took 0.014058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_SwitchEmiter_Emission_sRGB.png
+  artifactKey: Guid(54b544c330b06440c8fcc38bc1016b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_SwitchEmiter_Emission_sRGB.png using Guid(54b544c330b06440c8fcc38bc1016b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d7f19468b6a9b2d2d36c6f0f754001') in 0.013599 seconds 
+  Import took 0.018758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_SwitchPlastic_Normal_Raw.png
+  artifactKey: Guid(9ba15d2734a684ce9b6ac14467167a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_SwitchPlastic_Normal_Raw.png using Guid(9ba15d2734a684ce9b6ac14467167a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5174789afb6a700f834c55ee92d9e4d4') in 0.010122 seconds 
+  Import took 0.016310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_BlackDriveInterior_Normal_Raw.png
+  artifactKey: Guid(179a60b023a414e4da5d9ced5c92c083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_BlackDriveInterior_Normal_Raw.png using Guid(179a60b023a414e4da5d9ced5c92c083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3c217404bfc4a52cd98b5b7c57741f') in 0.013698 seconds 
+  Import took 0.018220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_TVGlass_Emission_sRGB.png
+  artifactKey: Guid(28c8210c3038a48fea79fef637af5873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_TVGlass_Emission_sRGB.png using Guid(28c8210c3038a48fea79fef637af5873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581426d3214d2a426087600e4aa4b41c') in 0.009476 seconds 
+  Import took 0.013849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_TVGlass_Normal_Raw.png
+  artifactKey: Guid(9488a7f6c9548496a8ea85504a2aa96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_TVGlass_Normal_Raw.png using Guid(9488a7f6c9548496a8ea85504a2aa96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ed6f19ddc48b0fafafd1e56f58328d') in 0.013131 seconds 
+  Import took 0.018131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_CompyPlastic_AlbedoTransparency_sRGB.png
+  artifactKey: Guid(2d13d93ee3ee449019843a2860597a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_CompyPlastic_AlbedoTransparency_sRGB.png using Guid(2d13d93ee3ee449019843a2860597a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2625b2b4fa8462fe207e98b44196652d') in 0.011919 seconds 
+  Import took 0.018257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_SwitchPlastic_MetallicSmoothness_Raw.png
+  artifactKey: Guid(65e6d3f545c614c51820e3235c2e2559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_SwitchPlastic_MetallicSmoothness_Raw.png using Guid(65e6d3f545c614c51820e3235c2e2559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26840a6b009c810f27125cb557359ad1') in 0.016976 seconds 
+  Import took 0.025631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Objects/Monitor/OldMonitor_DriveLightEmmiter_Emission_sRGB.png
+  artifactKey: Guid(8b9387b71fb1141c8a6b01bdd4872eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Monitor/OldMonitor_DriveLightEmmiter_Emission_sRGB.png using Guid(8b9387b71fb1141c8a6b01bdd4872eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d40f2dcf7b1d14a7ae7ad6f8f39adf') in 0.020012 seconds 
+  Import took 0.027525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 322.347679 seconds.
+  path: Assets/Objects/Mouse/mouse.fbx
+  artifactKey: Guid(033fdddc40a4f4f818c9af20fb664961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Mouse/mouse.fbx using Guid(033fdddc40a4f4f818c9af20fb664961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c31c02b9039a6b61c6267622635a193') in 0.072415 seconds 
+  Import took 0.077828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Objects/Mouse/mouse_Hard Shiny Plastic Black_MetallicSmoothness_Raw.png
+  artifactKey: Guid(5bc036b4a964e47048888552a38e7287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Mouse/mouse_Hard Shiny Plastic Black_MetallicSmoothness_Raw.png using Guid(5bc036b4a964e47048888552a38e7287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c26a6aa6d464d647281af449159ba5') in 0.013726 seconds 
+  Import took 0.018148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Objects/Mouse/mouse_Rubber_Normal_Raw.png
+  artifactKey: Guid(3040f3cbcd03b43e8a778d8aa90d18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Mouse/mouse_Rubber_Normal_Raw.png using Guid(3040f3cbcd03b43e8a778d8aa90d18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f7201a5ed910d7c8d514a0801124eb') in 0.012681 seconds 
+  Import took 0.017600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Objects/Mouse/mouse_Rubber_AlbedoTransparency_sRGB.png
+  artifactKey: Guid(c4805a564785e45b9a285f397de2a1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Mouse/mouse_Rubber_AlbedoTransparency_sRGB.png using Guid(c4805a564785e45b9a285f397de2a1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b043b5fbce1b1866e84c20a8ae2881') in 0.011680 seconds 
+  Import took 0.016286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Objects/Mouse/mouse_Hard Shiny Plastic Black_Emission_sRGB.png
+  artifactKey: Guid(b2c7817324b93466daade0e58c7ce6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Mouse/mouse_Hard Shiny Plastic Black_Emission_sRGB.png using Guid(b2c7817324b93466daade0e58c7ce6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd76c0e20e9ade3ae72bb5e62564938') in 0.013364 seconds 
+  Import took 0.017995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Objects/Mouse/mouse_Hard Shiny Plastic Black1_Normal_Raw.png
+  artifactKey: Guid(25141ab36b05f46ac8c756f1fda1542c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Mouse/mouse_Hard Shiny Plastic Black1_Normal_Raw.png using Guid(25141ab36b05f46ac8c756f1fda1542c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c1a4a49d4ef16ea262de9e07b03b25') in 0.012255 seconds 
+  Import took 0.016930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Objects/Mouse/mouse_Rubber_MetallicSmoothness_Raw.png
+  artifactKey: Guid(81da81c1a837c45f5941f2abccef26c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Mouse/mouse_Rubber_MetallicSmoothness_Raw.png using Guid(81da81c1a837c45f5941f2abccef26c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40939beee2708ecd671ad20e800dd2b') in 0.016186 seconds 
+  Import took 0.020663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Objects/Mouse/mouse_Hard Shiny Plastic Black1_AlbedoTransparency_sRGB.png
+  artifactKey: Guid(e0100d9622de74827ae615d7141e10dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Mouse/mouse_Hard Shiny Plastic Black1_AlbedoTransparency_sRGB.png using Guid(e0100d9622de74827ae615d7141e10dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ea92295fd75c9836b8ac53c9a40cf5') in 0.010807 seconds 
+  Import took 0.015298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Objects/Mouse/mouse_Hard Shiny Plastic Black_AlbedoTransparency_sRGB.png
+  artifactKey: Guid(7ad6794cf6a374e43a7728cde23123e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Mouse/mouse_Hard Shiny Plastic Black_AlbedoTransparency_sRGB.png using Guid(7ad6794cf6a374e43a7728cde23123e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a26004bf21e3747223fb47796eafc6d') in 0.010993 seconds 
+  Import took 0.015281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Objects/Mouse/mouse_Hard Shiny Plastic Grey_AlbedoTransparency_sRGB.png
+  artifactKey: Guid(62a54763fb6ae4f6589e06ddc31d9815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Mouse/mouse_Hard Shiny Plastic Grey_AlbedoTransparency_sRGB.png using Guid(62a54763fb6ae4f6589e06ddc31d9815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3504a8ad52b7fa8d0fc7ebb1e9c9f3e6') in 0.009670 seconds 
+  Import took 0.013817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Objects/Mouse/mouse_Rubber_Emission_sRGB.png
+  artifactKey: Guid(e0c1644ca07574b4fb6dd65e5b6dc352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Mouse/mouse_Rubber_Emission_sRGB.png using Guid(e0c1644ca07574b4fb6dd65e5b6dc352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dba7dc300b16dade2c6e0d1aae153fa') in 0.013807 seconds 
+  Import took 0.018367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Objects/Mouse/mouse_Hard Shiny Plastic Black1_MetallicSmoothness_Raw.png
+  artifactKey: Guid(86196094ac5ad44548eb2a418be1255f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Mouse/mouse_Hard Shiny Plastic Black1_MetallicSmoothness_Raw.png using Guid(86196094ac5ad44548eb2a418be1255f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0579d6ce5e12940ffebb7fb48d4633') in 0.013759 seconds 
+  Import took 0.019020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Objects/Mouse/mouse_Hard Shiny Plastic Grey_MetallicSmoothness_Raw.png
+  artifactKey: Guid(802f379c970d447e695bf7d7efb34c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Mouse/mouse_Hard Shiny Plastic Grey_MetallicSmoothness_Raw.png using Guid(802f379c970d447e695bf7d7efb34c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cff9a8e4c7c8f2e5669d555b2039cd') in 0.015001 seconds 
+  Import took 0.019628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Objects/Mouse/mouse_Hard Shiny Plastic Grey_Normal_Raw.png
+  artifactKey: Guid(da2b5a64e95d44858858f05bba94d65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Mouse/mouse_Hard Shiny Plastic Grey_Normal_Raw.png using Guid(da2b5a64e95d44858858f05bba94d65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d133386fa06382f57aa518f8ed7832') in 0.009528 seconds 
+  Import took 0.013969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Objects/Mouse/mouse_Hard Shiny Plastic Black_Normal_Raw.png
+  artifactKey: Guid(ac94a097b468840feb414042e971059c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Mouse/mouse_Hard Shiny Plastic Black_Normal_Raw.png using Guid(ac94a097b468840feb414042e971059c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35a9709c3f817966d1fc8a638b5944b') in 0.013464 seconds 
+  Import took 0.018803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Objects/Mouse/mouse_Hard Shiny Plastic Grey_Emission_sRGB.png
+  artifactKey: Guid(d1aa94871e98344428ccb33627ffcedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Mouse/mouse_Hard Shiny Plastic Grey_Emission_sRGB.png using Guid(d1aa94871e98344428ccb33627ffcedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02232d6e71c8808420397497c5255ca') in 0.013896 seconds 
+  Import took 0.020154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Objects/Mouse/mouse_Hard Shiny Plastic Black1_Emission_sRGB.png
+  artifactKey: Guid(92a8e27e2fa7246bf81e138ca36daf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Mouse/mouse_Hard Shiny Plastic Black1_Emission_sRGB.png using Guid(92a8e27e2fa7246bf81e138ca36daf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9959985ad735b535df7575671026ca17') in 0.014983 seconds 
+  Import took 0.022014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.548141 seconds.
+  path: Assets/Objects/SodaCan/SodaCan.fbx
+  artifactKey: Guid(ea60fbc247c844997ad4055979c17630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/SodaCan.fbx using Guid(ea60fbc247c844997ad4055979c17630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8b4ca60bc4f986fe98fc86bf8bf614') in 0.069555 seconds 
+  Import took 0.074892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Objects/SodaCan/SodaCan_Label_MetallicSmoothness.png
+  artifactKey: Guid(535901c25088a4b26b95ae0f228ac931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/SodaCan_Label_MetallicSmoothness.png using Guid(535901c25088a4b26b95ae0f228ac931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56482b1ef5e3ba676f2c76991ee95d00') in 0.032203 seconds 
+  Import took 0.036357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Objects/SodaCan/SodaCan_Lid_Normal.png
+  artifactKey: Guid(2ffb10a4727194615b07ecbc82f164ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/SodaCan_Lid_Normal.png using Guid(2ffb10a4727194615b07ecbc82f164ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3536a715d05c0c455a40b94b7c3b3a4a') in 0.016691 seconds 
+  Import took 0.020814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Objects/SodaCan/SodaCan_InsideCan_MetallicSmoothness.png
+  artifactKey: Guid(d5bbe2470abb249ada8f6cb17f24407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/SodaCan_InsideCan_MetallicSmoothness.png using Guid(d5bbe2470abb249ada8f6cb17f24407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac3170b69393a6e4ac00f0ee90d737c') in 0.015364 seconds 
+  Import took 0.019898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Objects/SodaCan/SodaCan_InsideCan_Normal.png
+  artifactKey: Guid(6b441a989d7e845398fb2006d788539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/SodaCan_InsideCan_Normal.png using Guid(6b441a989d7e845398fb2006d788539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f717d72b1e74f2a519ace5a6c78b43') in 0.011127 seconds 
+  Import took 0.015410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Objects/SodaCan/SodaCan_Label_AlbedoTransparency.png
+  artifactKey: Guid(32cb76dd5672a4f2a9e58ae1c263fe3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/SodaCan_Label_AlbedoTransparency.png using Guid(32cb76dd5672a4f2a9e58ae1c263fe3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2946a4893ad76ad04890d2634503088') in 0.012184 seconds 
+  Import took 0.016166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Objects/SodaCan/SodaCan_Label_Normal.png
+  artifactKey: Guid(bfe417367d83f43ec86bfc1bc605d092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/SodaCan_Label_Normal.png using Guid(bfe417367d83f43ec86bfc1bc605d092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432fa07f64d2fe61ad2d3d20d0a14c07') in 0.012957 seconds 
+  Import took 0.016884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Objects/SodaCan/SodaCan_Lid_MetallicSmoothness.png
+  artifactKey: Guid(c10899b99d10e4201a64e49c1c1d20b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/SodaCan_Lid_MetallicSmoothness.png using Guid(c10899b99d10e4201a64e49c1c1d20b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8d96f761b2921da6673ac6ed5b3735') in 0.017890 seconds 
+  Import took 0.022891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Objects/SodaCan/SodaCan_InsideCan_AlbedoTransparency.png
+  artifactKey: Guid(c56ed3370a0b04516ab394be40ccda8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/SodaCan_InsideCan_AlbedoTransparency.png using Guid(c56ed3370a0b04516ab394be40ccda8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772307c1688a0e3bba6aa71bc002d508') in 0.013565 seconds 
+  Import took 0.019042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Objects/SodaCan/SodaCan_Lid_AlbedoTransparency.png
+  artifactKey: Guid(84f8e521d028a4124bb3be017da64390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/SodaCan_Lid_AlbedoTransparency.png using Guid(84f8e521d028a4124bb3be017da64390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95482329daaa2c21ef864aa6b3e37956') in 0.015085 seconds 
+  Import took 0.023987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 560.270828 seconds.
+  path: Assets/Objects/SodaCan/SodaCan.fbx
+  artifactKey: Guid(ea60fbc247c844997ad4055979c17630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/SodaCan.fbx using Guid(ea60fbc247c844997ad4055979c17630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9562f8112a30e3d1350ba391f2a0ecb5') in 0.079925 seconds 
+  Import took 0.089529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Objects/SodaCan/Lid.mat
+  artifactKey: Guid(e4da7153fd4bd4da18ae90ddebb015d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/Lid.mat using Guid(e4da7153fd4bd4da18ae90ddebb015d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cd4325d5316cba3aea3264903f56d0') in 0.118724 seconds 
+  Import took 0.127909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Objects/SodaCan/Label.mat
+  artifactKey: Guid(2b46818f2fc35478eb8a187abb51a6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/Label.mat using Guid(2b46818f2fc35478eb8a187abb51a6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65dff040778ade7f847dfcadfcf19fd7') in 0.010245 seconds 
+  Import took 0.014987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Objects/SodaCan/InsideCan.mat
+  artifactKey: Guid(fa8d63dc369644746bde3ce91a07a5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/InsideCan.mat using Guid(fa8d63dc369644746bde3ce91a07a5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4308ead4f39b1a104f27e32ddb0c041') in 0.009434 seconds 
+  Import took 0.013873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 419.181639 seconds.
+  path: Assets/Objects/SodaCan/SodaCan_Label_Normal.png
+  artifactKey: Guid(bfe417367d83f43ec86bfc1bc605d092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/SodaCan_Label_Normal.png using Guid(bfe417367d83f43ec86bfc1bc605d092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4b0fe9bc258e0d9793cf17ca046c60') in 0.080235 seconds 
+  Import took 0.084588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.816480 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk.fbx
+  artifactKey: Guid(f59ebad2b0e0b42718988edb5e258821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk.fbx using Guid(f59ebad2b0e0b42718988edb5e258821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba92147a50d3536746a99d490df9618') in 0.025040 seconds 
+  Import took 0.029810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 333.595496 seconds.
+  path: Assets/Objects/SodaCan/SodaCan_InsideCan_Normal.png
+  artifactKey: Guid(6b441a989d7e845398fb2006d788539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/SodaCan_InsideCan_Normal.png using Guid(6b441a989d7e845398fb2006d788539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f16a705db15b7a76d8808ff148c7c99') in 0.018415 seconds 
+  Import took 0.023683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.831157 seconds.
+  path: Assets/Objects/SodaCan/SodaCan_Lid_Normal.png
+  artifactKey: Guid(2ffb10a4727194615b07ecbc82f164ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/SodaCan_Lid_Normal.png using Guid(2ffb10a4727194615b07ecbc82f164ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b69e624d726afc18a507d1f524bdde') in 0.017450 seconds 
+  Import took 0.022221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.440732 seconds.
+  path: Assets/Objects/SodaCan/Materials
+  artifactKey: Guid(3c96519c9dd7349afa39a1ca921ef42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/Materials using Guid(3c96519c9dd7349afa39a1ca921ef42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0732e1b66090df8d8baef9f7857bb3e') in 0.002475 seconds 
+  Import took 0.007071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.654612 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime
+  artifactKey: Guid(79e8584360be43649ad60cb0f180e904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime using Guid(79e8584360be43649ad60cb0f180e904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3792cfd5cb78dfcbbb61a3465d5905') in 0.001875 seconds 
+  Import took 0.006476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.481346 seconds.
+  path: Assets/URP
+  artifactKey: Guid(60cf27ff33b8f4c15ab40381b29d84f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP using Guid(60cf27ff33b8f4c15ab40381b29d84f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329eed0fd0b71f5867aa19c6cdfcad2b') in 0.001986 seconds 
+  Import took 0.006227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.234326 seconds.
+  path: Assets/URP/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(234717cbabbf74c3c8c692ecdb8b7bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP/UniversalRenderPipelineAsset.asset using Guid(234717cbabbf74c3c8c692ecdb8b7bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de35f7c34843b6987f738857a8640f1') in 0.152587 seconds 
+  Import took 0.161907 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
