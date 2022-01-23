@@ -1,7 +1,7 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Shaders/Lit.shader">
+﻿<Properties StartupConfiguration="{9BBA04CB-D452-8B40-59E1-2EEA6D3D3A70}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameObjects/CodingScreen.cs">
     <Files>
-      <File FileName="Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Shaders/Lit.shader" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameObjects/CodingScreen.cs" Line="4" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,6 +13,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="196da9da-7707-40ed-a015-43f1dc5acfff" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

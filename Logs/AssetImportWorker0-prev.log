@@ -15,7 +15,7 @@ D:/source/GameJam/GameJam22
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50112
+50947
 Successfully changed project path to: D:/source/GameJam/GameJam22
 D:/source/GameJam/GameJam22
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/source/GameJam/GameJam22
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 61.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 245.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.8f1 (d0e5f0a7b06a)
 [Subsystems] Discovering subsystems at path D:/Development/ProgramFiles/Unity/2021.2.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,93 +63,93 @@ Initialize mono
 Mono path[0] = 'D:/Development/ProgramFiles/Unity/2021.2.8f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Development/ProgramFiles/Unity/2021.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Development/ProgramFiles/Unity/2021.2.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Development/ProgramFiles/Unity/2021.2.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Development/ProgramFiles/Unity/2021.2.8f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: D:/Development/ProgramFiles/Unity/2021.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011121 seconds.
+Registered in 0.063684 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 55.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 59.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.813 seconds
+- Completed reload, in  1.090 seconds
 Domain Reload Profiling:
-	ReloadAssembly (814ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (1090ms)
+		BeginReloadAssembly (324ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (581ms)
-			LoadAssemblies (143ms)
+		EndReloadAssembly (603ms)
+			LoadAssemblies (337ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (154ms)
+			SetupTypeCache (159ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (334ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (318ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (56ms)
+				RefreshPlugins (59ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (168ms)
-				ProcessInitializeOnLoadMethodAttributes (87ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009826 seconds.
+Registered in 0.128561 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 54.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 58.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.962 seconds
+- Completed reload, in  2.481 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1962ms)
-		BeginReloadAssembly (169ms)
+	ReloadAssembly (2482ms)
+		BeginReloadAssembly (180ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1678ms)
-			LoadAssemblies (164ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (2178ms)
+			LoadAssemblies (453ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (262ms)
+			SetupTypeCache (322ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (1189ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (1338ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (55ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (923ms)
-				ProcessInitializeOnLoadMethodAttributes (107ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (1044ms)
+				ProcessInitializeOnLoadMethodAttributes (130ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.39 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3423 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 41 unused Assets / (2.0 MB). Loaded Objects now: 3866.
 Memory consumption went from 160.7 MB to 158.7 MB.
-Total: 4.387600 ms (FindLiveObjects: 0.345600 ms CreateObjectMapping: 0.186900 ms MarkObjects: 3.292200 ms  DeleteObjects: 0.561000 ms)
+Total: 7.416500 ms (FindLiveObjects: 0.504400 ms CreateObjectMapping: 0.383500 ms MarkObjects: 5.958200 ms  DeleteObjects: 0.567600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,373 +163,241 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 882003.222717 seconds.
-  path: Assets/Objects/Monitor/OldMonitor_DriveLightFilter_Normal_Raw.png
-  artifactKey: Guid(a1dfb9a6fc64842af87ccf902f93bc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor_DriveLightFilter_Normal_Raw.png using Guid(a1dfb9a6fc64842af87ccf902f93bc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6cb1d62472b9dd26ca83aa01ef9a74d') in 0.186871 seconds 
+  Time since last request: 897464.157624 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Face_Emission.png
+  artifactKey: Guid(bc28eea7f26f64ad2be5089c260dc120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Face_Emission.png using Guid(bc28eea7f26f64ad2be5089c260dc120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c01509f571140f1accffa36a18d0919') in 0.234822 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 96.301509 seconds.
-  path: Assets/Objects/Monitor/OldMonitor.fbx
-  artifactKey: Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor.fbx using Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbfd06180c1428bf37881790330ed2f') in 0.542765 seconds 
+  Time since last request: 384.117671 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Ringer_Normal.png
+  artifactKey: Guid(b59e3f38bf6024559be1e689105e3fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Ringer_Normal.png using Guid(b59e3f38bf6024559be1e689105e3fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4ec2612dc44581c73e0b9e1193e888') in 0.094611 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.601122 seconds.
-  path: Assets/Objects/Monitor/OldMonitor.fbx
-  artifactKey: Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor.fbx using Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ace9c6d3dbfcb2950200d5dde930bec') in 0.175911 seconds 
+  Time since last request: 0.219255 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Ringer_MetallicSmoothness.png
+  artifactKey: Guid(6bce73d2737804e0fb3911c8ecc67039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Ringer_MetallicSmoothness.png using Guid(6bce73d2737804e0fb3911c8ecc67039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fa4abc6f2bc2f215b99c16ed41b5b0') in 0.019611 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.067586 seconds.
-  path: Assets/Objects/Monitor/OldMonitorLandscape.fbx
-  artifactKey: Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitorLandscape.fbx using Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbea7e270882a71c094e3d4cbdad996') in 0.139170 seconds 
+  Time since last request: 0.412726 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Ringer_AlbedoTransparency.png
+  artifactKey: Guid(f6558ecdfa1fe4f12ad1bd99f3a3fbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Ringer_AlbedoTransparency.png using Guid(f6558ecdfa1fe4f12ad1bd99f3a3fbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1492c65707b1392460e5d8f85dd291a') in 0.016299 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.364576 seconds.
-  path: Assets/Objects/Monitor/OldMonitorLandscape.fbx
-  artifactKey: Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitorLandscape.fbx using Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4606714e30bb6fc86f53415c4270003') in 0.129737 seconds 
+  Time since last request: 1.074409 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Prism Glass.001_Normal.png
+  artifactKey: Guid(0dfbd9d190cc34ddd9e18e9e20006b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Prism Glass.001_Normal.png using Guid(0dfbd9d190cc34ddd9e18e9e20006b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13986ffb88f2a13abaf29ad9fae83e6d') in 0.028087 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 38.665667 seconds.
-  path: Assets/Objects/Monitor/OldMonitor_CompyPlastic_MetallicSmoothness_Raw.png
-  artifactKey: Guid(3c70da993fdd440c09dd2849fec6c8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor_CompyPlastic_MetallicSmoothness_Raw.png using Guid(3c70da993fdd440c09dd2849fec6c8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8d096fccbf336d1c250ea7858ddd1e') in 0.036844 seconds 
+  Time since last request: 0.507453 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Prism Glass.001_MetallicSmoothness.png
+  artifactKey: Guid(ee459ce7f01d84f608922b804fc058d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Prism Glass.001_MetallicSmoothness.png using Guid(ee459ce7f01d84f608922b804fc058d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462d078dc96aeca87cf7cdfd1af8f532') in 0.037093 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.106821 seconds.
-  path: Assets/Objects/Monitor/OldMonitor_CompyPlastic_Normal_Raw.png
-  artifactKey: Guid(8a02f27c3006e47f4939fe0add34826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor_CompyPlastic_Normal_Raw.png using Guid(8a02f27c3006e47f4939fe0add34826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9694544139a74837793e420ef8592ea') in 0.042185 seconds 
+  Time since last request: 0.546509 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Prism Glass.001_AlbedoTransparency.png
+  artifactKey: Guid(69f6ebcc7915944b2bf0c3b3ce8a83dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Prism Glass.001_AlbedoTransparency.png using Guid(69f6ebcc7915944b2bf0c3b3ce8a83dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443ec0ef80d18d9098d4c0985cc24871') in 0.019984 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.079290 seconds.
-  path: Assets/Objects/Monitor/OldMonitor_CRTBackplane_AlbedoTransparency_sRGB.png
-  artifactKey: Guid(28909256c1dd94462939fb2072806162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor_CRTBackplane_AlbedoTransparency_sRGB.png using Guid(28909256c1dd94462939fb2072806162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809f4f3d082f2433e2f6a045765646c4') in 0.017144 seconds 
+  Time since last request: 2.097288 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Hands_MetallicSmoothness.png
+  artifactKey: Guid(a85bff173f3b542389addc7287e57d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Hands_MetallicSmoothness.png using Guid(a85bff173f3b542389addc7287e57d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a536ac363f8e5164cc219b0da79cb409') in 0.018608 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.678759 seconds.
-  path: Assets/Objects/Monitor/Textures
-  artifactKey: Guid(c6ae0f0c1b649154394e17ec98b43820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/Textures using Guid(c6ae0f0c1b649154394e17ec98b43820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b8f5d250617e6bbd54aff5e8792104') in 0.015955 seconds 
+  Time since last request: 2.074919 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Hammer_MetallicSmoothness.png
+  artifactKey: Guid(c8e8a1604a0eb4ef19952c409386b7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Hammer_MetallicSmoothness.png using Guid(c8e8a1604a0eb4ef19952c409386b7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8305fa2b54470a367db7ae3fb3d4cf1') in 0.020300 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.936854 seconds.
-  path: Assets/Objects/Monitor/OldMonitor_CompyPlastic_AlbedoTransparency_sRGB.png
-  artifactKey: Guid(2d13d93ee3ee449019843a2860597a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor_CompyPlastic_AlbedoTransparency_sRGB.png using Guid(2d13d93ee3ee449019843a2860597a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9818435f03c85bd2c53fe2713388d66') in 0.029405 seconds 
+  Time since last request: 13.745833 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Face_MetallicSmoothness.png
+  artifactKey: Guid(481501eb956ac44ca8d5f88cde4da254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Face_MetallicSmoothness.png using Guid(481501eb956ac44ca8d5f88cde4da254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c329a2aae47f771f5f15fdce527abdf9') in 0.031012 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.321454 seconds.
-  path: Assets/Objects/Monitor/OldMonitor_BlackDriveInterior_AlbedoTransparency_sRGB.png
-  artifactKey: Guid(4753ed9be609f4a589ef1a92dd6ea0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor_BlackDriveInterior_AlbedoTransparency_sRGB.png using Guid(4753ed9be609f4a589ef1a92dd6ea0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ee40ab0a7d24a461737e8e4396e61a') in 0.020628 seconds 
+  Time since last request: 5.606413 seconds.
+  path: Assets/Objects/Clocky2000/Textures
+  artifactKey: Guid(4176b3b1b7fcc7c439fb20278ddafdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Textures using Guid(4176b3b1b7fcc7c439fb20278ddafdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eec88b13d899fa54e2bc8638c9753a0') in 0.016129 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.578977 seconds.
-  path: Assets/Objects/Monitor/OldMonitor.fbx
-  artifactKey: Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor.fbx using Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcd556c74f5fee0882103880577d1bc') in 0.181836 seconds 
+  Time since last request: 7.811332 seconds.
+  path: Assets/Objects/Clocky2000/Materials
+  artifactKey: Guid(fc3e3d26b52659e4f8383997e229b734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Materials using Guid(fc3e3d26b52659e4f8383997e229b734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea94f38a19b0f75edf0552ca981f8579') in 0.009715 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.723464 seconds.
-  path: Assets/Objects/Monitor/OldMonitor_DriveLightEmmiter_Emission_sRGB.png
-  artifactKey: Guid(8b9387b71fb1141c8a6b01bdd4872eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor_DriveLightEmmiter_Emission_sRGB.png using Guid(8b9387b71fb1141c8a6b01bdd4872eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8e2d78ad914a84cddd3a158dd00dcd') in 0.018812 seconds 
+  Time since last request: 1.797957 seconds.
+  path: Assets/Objects/Clocky2000/Clock_clock_AlbedoTransparency.png
+  artifactKey: Guid(bf312261a7bdd452888ab41d78339a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_clock_AlbedoTransparency.png using Guid(bf312261a7bdd452888ab41d78339a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc207d932dd4c9d3621c7e0548708e79') in 0.020009 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.696274 seconds.
-  path: Assets/Objects/Monitor/OldMonitorLandscape.fbx
-  artifactKey: Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitorLandscape.fbx using Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db66f0f5020c79f3dbec44346c4d1ed7') in 0.212290 seconds 
+  Time since last request: 0.827237 seconds.
+  path: Assets/Objects/Clocky2000/Clock_Hammer_AlbedoTransparency.png
+  artifactKey: Guid(45d8a4e259d734be8872e52afb4ed1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Clock_Hammer_AlbedoTransparency.png using Guid(45d8a4e259d734be8872e52afb4ed1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228d9ede7dd6521b86f4e7acb1eeef43') in 0.020433 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.916830 seconds.
-  path: Assets/Objects/Monitor/OldMonitorLandscape.fbx
-  artifactKey: Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitorLandscape.fbx using Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af122906e9d715c4c5b517c279a2a5f') in 0.150266 seconds 
+  Time since last request: 36.229105 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskGlow_Height_Raw.png
+  artifactKey: Guid(728d9ee0bff4b45b1a93ec598b5a7779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskGlow_Height_Raw.png using Guid(728d9ee0bff4b45b1a93ec598b5a7779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1cff6842030895ea63c84524ad3fbe') in 0.041373 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.301016 seconds.
-  path: Assets/Objects/Monitor/Materials
-  artifactKey: Guid(db8ad49a30d6c7847bd8c8c3d801e15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/Materials using Guid(db8ad49a30d6c7847bd8c8c3d801e15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90112df0dc684dcdc22fab60b2bfd4f1') in 0.007271 seconds 
+  Time since last request: 6.109318 seconds.
+  path: Assets/Objects/ComputerDesk/Materials
+  artifactKey: Guid(313667ddf1c8a4b4fa7e55688cf873b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/Materials using Guid(313667ddf1c8a4b4fa7e55688cf873b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ea3923d8afebaffd7df355c8d37186') in 0.006214 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 57.560253 seconds.
-  path: Assets/Objects/Monitor/OldMonitor.fbx
-  artifactKey: Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor.fbx using Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9830962b4fa7081fa85472721ca90ef') in 0.151958 seconds 
+  Time since last request: 1.200350 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskGlow_Metallic_Raw.png
+  artifactKey: Guid(0b6314ee77826448cb6afd1297bf9c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskGlow_Metallic_Raw.png using Guid(0b6314ee77826448cb6afd1297bf9c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a614741703d7494235c1b2041015dd') in 0.046690 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.049854 seconds.
-  path: Assets/Objects/Monitor/OldMonitor.fbx
-  artifactKey: Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor.fbx using Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f7299e8458ff1ac904836d13ba7d48a') in 0.131801 seconds 
+  Time since last request: 5.421091 seconds.
+  path: Assets/Objects/ComputerDesk/Textures
+  artifactKey: Guid(501d732d94acf98419da845a9e22bcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/Textures using Guid(501d732d94acf98419da845a9e22bcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c9d4ca3f34ddeb9fee8a97dac86100') in 0.003017 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.496209 seconds.
-  path: Assets/Objects/Monitor/OldMonitorLandscape.fbx
-  artifactKey: Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitorLandscape.fbx using Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d5940ad0557e8c8971c924a8e58e1b') in 0.160586 seconds 
+  Time since last request: 1.883890 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskGlass_BaseColor_sRGB.png
+  artifactKey: Guid(1b60bb72efed74ad980d46575520705e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskGlass_BaseColor_sRGB.png using Guid(1b60bb72efed74ad980d46575520705e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e4867bbc6844390c285c13b19e3d20') in 0.053272 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.516314 seconds.
-  path: Assets/Objects/Monitor/OldMonitorLandscape.fbx
-  artifactKey: Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitorLandscape.fbx using Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb870983dc98492884560c99e3793880') in 0.149080 seconds 
+  Time since last request: 1.528292 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskMetal_BaseColor_sRGB.png
+  artifactKey: Guid(dcb3bde9613d2463caaeef48612a2af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskMetal_BaseColor_sRGB.png using Guid(dcb3bde9613d2463caaeef48612a2af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ddd5e879a5d185eca61ed3312ecf43c') in 0.059977 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.556823 seconds.
-  path: Assets/Objects/Monitor/OldMonitor_DriveLightEmmiter_AlbedoTransparency_sRGB.png
-  artifactKey: Guid(3555d6564d1eb4bb8b065a7baaff14c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor_DriveLightEmmiter_AlbedoTransparency_sRGB.png using Guid(3555d6564d1eb4bb8b065a7baaff14c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fa61cc77e04ce9137cb74aad1fc60d') in 0.018514 seconds 
+  Time since last request: 18.821806 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskGlow_BaseColor_sRGB.png
+  artifactKey: Guid(ecc38dbb16e424108bab9d59d312a3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskGlow_BaseColor_sRGB.png using Guid(ecc38dbb16e424108bab9d59d312a3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c1edf5f6abb5a7b9648c4122dac927') in 0.024406 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.968412 seconds.
-  path: Assets/Objects/Monitor/OldMonitor.fbx
-  artifactKey: Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor.fbx using Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19d631a3fc2b7d84afc03b061404296') in 0.171644 seconds 
+  Time since last request: 9402.447063 seconds.
+  path: Assets/Objects/ComputerDesk/ComputerDesk_DeskWood_Roughness_Raw.png
+  artifactKey: Guid(3144a2bc28ad74781b8ce84fda052ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/ComputerDesk_DeskWood_Roughness_Raw.png using Guid(3144a2bc28ad74781b8ce84fda052ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0536e9134536bf53c07ae9b657a024c2') in 0.111006 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.213117 seconds.
-  path: Assets/Objects/Monitor/OldMonitor.fbx
-  artifactKey: Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor.fbx using Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435f91b4abaec61c08ca572a0a70f806') in 0.151940 seconds 
+  Time since last request: 2048.294740 seconds.
+  path: Assets/Objects/ComputerDesk/Textures/ComputerDesk_DeskGlass_Roughness_Raw.png
+  artifactKey: Guid(545f0a0dd97594c0294c9017d334c96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ComputerDesk/Textures/ComputerDesk_DeskGlass_Roughness_Raw.png using Guid(545f0a0dd97594c0294c9017d334c96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d8f8b7433be690b4e1d338a56bfbd2') in 0.072309 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.178746 seconds.
-  path: Assets/Objects/Monitor/OldMonitorLandscape.fbx
-  artifactKey: Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitorLandscape.fbx using Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85679caa16c9813f85259f21b18f9c4a') in 0.160419 seconds 
+  Time since last request: 1979.857127 seconds.
+  path: Assets/Objects/SodaCan
+  artifactKey: Guid(0f1d486b9875142e89439fef0a1218f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan using Guid(0f1d486b9875142e89439fef0a1218f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8631b802f5845eeeffefed446949c3b0') in 0.022908 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.346659 seconds.
-  path: Assets/Objects/Monitor/OldMonitorLandscape.fbx
-  artifactKey: Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitorLandscape.fbx using Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb447aa80ae566876bc0349c0c024851') in 0.164088 seconds 
+  Time since last request: 7.548767 seconds.
+  path: Assets/Objects/SodaCan/Materials
+  artifactKey: Guid(d1af634b228cf49449631c419f7bbd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/Materials using Guid(d1af634b228cf49449631c419f7bbd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026938b0ce5b17dedcb76bddd214666d') in 0.015556 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.482406 seconds.
-  path: Assets/Objects/Monitor/OldMonitor_SwitchEmiter_MetallicSmoothness_Raw.png
-  artifactKey: Guid(d82f7ac9a1c0d4de3a9c1bd3b3f63313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor_SwitchEmiter_MetallicSmoothness_Raw.png using Guid(d82f7ac9a1c0d4de3a9c1bd3b3f63313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02886ca8d1a5ea75a3db41cea14e5c3') in 0.018360 seconds 
+  Time since last request: 7.674467 seconds.
+  path: Assets/Objects/SodaCan/Textures
+  artifactKey: Guid(a8a43985769cc3b46a8fe381707dd387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/Textures using Guid(a8a43985769cc3b46a8fe381707dd387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c9cb315b209b0a19d3ed9cf11ef328') in 0.009987 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 62.580998 seconds.
-  path: Assets/Objects/Monitor/OldMonitor_DriveLightFilter_AlbedoTransparency_sRGB.png
-  artifactKey: Guid(fa62178f35b914dc0954287bbf2b79d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor_DriveLightFilter_AlbedoTransparency_sRGB.png using Guid(fa62178f35b914dc0954287bbf2b79d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0a51a29ec9f986220f11417d1b2364') in 0.052235 seconds 
+  Time since last request: 5.613629 seconds.
+  path: Assets/Objects/SodaCan/SodaCan_InsideCan_AlbedoTransparency.png
+  artifactKey: Guid(c56ed3370a0b04516ab394be40ccda8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/SodaCan_InsideCan_AlbedoTransparency.png using Guid(c56ed3370a0b04516ab394be40ccda8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2380ca141cb7a4d5bbdf91b3403abb') in 0.068576 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.424891 seconds.
-  path: Assets/Objects/Monitor/OldMonitor_DriveLightFilter_Emission_sRGB.png
-  artifactKey: Guid(015fcb3f62ceb4b71ab07653cef6f09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor_DriveLightFilter_Emission_sRGB.png using Guid(015fcb3f62ceb4b71ab07653cef6f09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9d1c38ec5129d4eff137e5f63fa51a') in 0.018344 seconds 
+  Time since last request: 0.995777 seconds.
+  path: Assets/Objects/SodaCan/SodaCan_Lid_AlbedoTransparency.png
+  artifactKey: Guid(84f8e521d028a4124bb3be017da64390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SodaCan/SodaCan_Lid_AlbedoTransparency.png using Guid(84f8e521d028a4124bb3be017da64390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bcc9b77ce2e52579208ba284264391') in 0.048329 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.402003 seconds.
-  path: Assets/Objects/Monitor/OldMonitor_DriveLightFilter_MetallicSmoothness_Raw.png
-  artifactKey: Guid(6350d04fef33b4c38bff73ccad0d0905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor_DriveLightFilter_MetallicSmoothness_Raw.png using Guid(6350d04fef33b4c38bff73ccad0d0905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2470be60283e88788dae26ce51b00de3') in 0.019066 seconds 
+  Time since last request: 7.174480 seconds.
+  path: Assets/Objects/Glasses-Broken/Glasses.fbx
+  artifactKey: Guid(6d1a734075b1b41439e8da2211375284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Glasses-Broken/Glasses.fbx using Guid(6d1a734075b1b41439e8da2211375284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af21d875a5a1ec997358ff0d64079b6b') in 0.866356 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.401503 seconds.
-  path: Assets/Objects/Monitor/OldMonitor_DriveLightFilter_Normal_Raw.png
-  artifactKey: Guid(a1dfb9a6fc64842af87ccf902f93bc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor_DriveLightFilter_Normal_Raw.png using Guid(a1dfb9a6fc64842af87ccf902f93bc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b05dacfa6b1633c8971ab5bc08be0f2') in 0.016523 seconds 
+  Time since last request: 33.013306 seconds.
+  path: Assets/Objects/Glasses-Broken
+  artifactKey: Guid(d0510e14a1362436d8d91b0b6716a92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Glasses-Broken using Guid(d0510e14a1362436d8d91b0b6716a92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4949a1222cb4d7591f2ebbf6698fef5b') in 0.008330 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.475008 seconds.
-  path: Assets/Objects/Monitor/OldMonitor.fbx
-  artifactKey: Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor.fbx using Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3f1f3c0cae439e95cab066ec21d64f') in 0.180029 seconds 
+  Time since last request: 99.865645 seconds.
+  path: Assets/Objects/Glasses-Broken/Glasses.fbx
+  artifactKey: Guid(6d1a734075b1b41439e8da2211375284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Glasses-Broken/Glasses.fbx using Guid(6d1a734075b1b41439e8da2211375284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0961687db99031dea3f8fcbd14931ae1') in 0.307387 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.915962 seconds.
-  path: Assets/Objects/Monitor/OldMonitor.fbx
-  artifactKey: Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor.fbx using Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6746f0f3bd8c6e98e1dd853d230fa0ae') in 0.171015 seconds 
+  Time since last request: 53.880560 seconds.
+  path: Assets/Objects/Glasses-Broken/Materials
+  artifactKey: Guid(c580aaf1411582e409c799bee5ece9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Glasses-Broken/Materials using Guid(c580aaf1411582e409c799bee5ece9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258d93bc29321f52c87f48c87fe477a3') in 0.003274 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.166043 seconds.
-  path: Assets/Objects/Monitor/OldMonitorLandscape.fbx
-  artifactKey: Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitorLandscape.fbx using Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4793780762f8a9f63705ec90dc0d1cb4') in 0.176841 seconds 
+  Time since last request: 5.915245 seconds.
+  path: Assets/Objects/Glasses-Broken/Textures
+  artifactKey: Guid(044ef5bd181c71a40bceecbcc05890bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Glasses-Broken/Textures using Guid(044ef5bd181c71a40bceecbcc05890bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26900f1a9b628f5f5b0e36d3cbbad6e6') in 0.005570 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.948384 seconds.
-  path: Assets/Objects/Monitor/OldMonitorLandscape.fbx
-  artifactKey: Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitorLandscape.fbx using Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabed898d44e5745673b5b9a7f314f6d') in 0.184518 seconds 
+  Time since last request: 3.508224 seconds.
+  path: Assets/Objects/Glasses-Broken/Glasses_Frame_AlbedoTransparency.png
+  artifactKey: Guid(fd0dac8df4b9340369d529b5fe20b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Glasses-Broken/Glasses_Frame_AlbedoTransparency.png using Guid(fd0dac8df4b9340369d529b5fe20b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57658e8684b9f4fbe50df5cf96ba2419') in 0.046200 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.630777 seconds.
-  path: Assets/Objects/Monitor/OldMonitor_SwitchPlastic_Emission_sRGB.png
-  artifactKey: Guid(537b05a11743f44f196972b5b39df057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor_SwitchPlastic_Emission_sRGB.png using Guid(537b05a11743f44f196972b5b39df057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6819105a32547c9608ea7bc77fa4a8bf') in 0.023644 seconds 
+  Time since last request: 32.971908 seconds.
+  path: Assets/Objects/Glasses-Broken/Glasses_Hardware_AlbedoTransparency.png
+  artifactKey: Guid(6cbb66fb2325b4f3a94029f80ccca9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Glasses-Broken/Glasses_Hardware_AlbedoTransparency.png using Guid(6cbb66fb2325b4f3a94029f80ccca9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d4620818f1e5dd166570df5d4d86e3') in 0.025051 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.718837 seconds.
-  path: Assets/Objects/Monitor/OldMonitor_SwitchEmiter_AlbedoTransparency_sRGB.png
-  artifactKey: Guid(eb80c28243b544b67bf40a02321d51c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor_SwitchEmiter_AlbedoTransparency_sRGB.png using Guid(eb80c28243b544b67bf40a02321d51c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ab16e3ca550d68f19d6317d9d2c6ce') in 0.016871 seconds 
+  Time since last request: 29.409848 seconds.
+  path: Assets/Objects/Glasses-Broken/Glasses_Lenses_AlbedoTransparency.png
+  artifactKey: Guid(aa78021220899406d9b3e3a3637ae916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Glasses-Broken/Glasses_Lenses_AlbedoTransparency.png using Guid(aa78021220899406d9b3e3a3637ae916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9a9437f2c701419a271587f4d157a9') in 0.032477 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.069161 seconds.
-  path: Assets/Objects/Monitor/OldMonitor.fbx
-  artifactKey: Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor.fbx using Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e23160a67d74223f07195461261d00') in 1.707607 seconds 
+  Time since last request: 22.319906 seconds.
+  path: Assets/Objects/Glasses-Broken/Glasses.fbx
+  artifactKey: Guid(6d1a734075b1b41439e8da2211375284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Glasses-Broken/Glasses.fbx using Guid(6d1a734075b1b41439e8da2211375284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5632ca3fc22290c18c39b5972eefa20') in 0.098970 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.009953 seconds.
-  path: Assets/Objects/Monitor/OldMonitor.fbx
-  artifactKey: Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor.fbx using Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787f8ff95ba1b1974e57df678fca3bae') in 0.210767 seconds 
+  Time since last request: 1156.296581 seconds.
+  path: Assets/Objects/Clocky2000/Textures/Clock_Hammer_Normal.png
+  artifactKey: Guid(9c3d7b8d2a4964c4786fbfcb6652d701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Clocky2000/Textures/Clock_Hammer_Normal.png using Guid(9c3d7b8d2a4964c4786fbfcb6652d701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef81599c59133462bc446f222ff9615') in 0.017074 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 221.020828 seconds.
-  path: Assets/Objects/Monitor/Textures/OldMonitor_SwitchEmiter_Emission_sRGB.png
-  artifactKey: Guid(54b544c330b06440c8fcc38bc1016b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/Textures/OldMonitor_SwitchEmiter_Emission_sRGB.png using Guid(54b544c330b06440c8fcc38bc1016b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c722359c08adf9fbbb21331d8e86796a') in 0.032113 seconds 
+  Time since last request: 415.781377 seconds.
+  path: Assets/Environments/Glazed Patio.exr
+  artifactKey: Guid(304c6f4633ecddb4990a78431cb42186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environments/Glazed Patio.exr using Guid(304c6f4633ecddb4990a78431cb42186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f8285684f0956909e50ec49653b916') in 0.074353 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 287.525619 seconds.
-  path: Assets/Objects/Monitor/OldMonitor_SwitchPlastic_AlbedoTransparency_sRGB.png
-  artifactKey: Guid(0c2844af434c64a9b98922894dced2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor_SwitchPlastic_AlbedoTransparency_sRGB.png using Guid(0c2844af434c64a9b98922894dced2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e0c26e9bf9ef33913a812d4bd93d23') in 0.048514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.574943 seconds.
-  path: Assets/Objects/Monitor/OldMonitor.fbx
-  artifactKey: Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor.fbx using Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c319085667e4482d20309e6acf7528f9') in 0.207118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.304591 seconds.
-  path: Assets/Objects/Monitor/OldMonitorLandscape.fbx
-  artifactKey: Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitorLandscape.fbx using Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe363d652f32f8a4383fd32b5a622895') in 0.195017 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.968574 seconds.
-  path: Assets/Objects/Monitor/OldMonitorLandscape.fbx
-  artifactKey: Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitorLandscape.fbx using Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f7ef8b5b537e9fcbcd6465fe07c4866') in 0.177615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.567221 seconds.
-  path: Assets/Objects/Monitor
-  artifactKey: Guid(c7faef731d9124be5b1638ed756ba116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor using Guid(c7faef731d9124be5b1638ed756ba116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee7bdc3c51cfea36aef7238320c528d') in 0.013990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 51.573055 seconds.
-  path: Assets/Objects/Monitor/OldMonitor_TVGlass_AlbedoTransparency_sRGB.png
-  artifactKey: Guid(4a010ce04448b48ad8db290c75b563ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor_TVGlass_AlbedoTransparency_sRGB.png using Guid(4a010ce04448b48ad8db290c75b563ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5c10d624de9062f79158c135ceff23') in 0.021119 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.648851 seconds.
-  path: Assets/Objects/Monitor/OldMonitor.fbx
-  artifactKey: Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor.fbx using Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc77dbc3d28d9d8c2394ec43c6732a48') in 0.185378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.452209 seconds.
-  path: Assets/Objects/Monitor/OldMonitor.fbx
-  artifactKey: Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitor.fbx using Guid(17e12cabf5033436f81f4a72248922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d97562c6e7de3b7190a0555f75da31') in 0.206226 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.804584 seconds.
-  path: Assets/Objects/Monitor/OldMonitorLandscape.fbx
-  artifactKey: Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitorLandscape.fbx using Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1e628ea614035e3582b6731dfedfe9') in 0.188338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.826923 seconds.
-  path: Assets/Objects/Monitor/OldMonitorLandscape.fbx
-  artifactKey: Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Monitor/OldMonitorLandscape.fbx using Guid(3117c9ff7fb57464d835b7239850cdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd909c6ec765e1bf0c07c5b91a177312a') in 0.189727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 574.278659 seconds.
-  path: Assets/Objects/Keyboard
-  artifactKey: Guid(7b43414f1640a4febbe39d0ff961393b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Keyboard using Guid(7b43414f1640a4febbe39d0ff961393b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bb9e06b06efedbad534609d593bf32') in 0.013354 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.089918 seconds.
-  path: Assets/Objects/Keyboard/Keyboard.fbx
-  artifactKey: Guid(d206eb8ab1777498285be634aae4c10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Keyboard/Keyboard.fbx using Guid(d206eb8ab1777498285be634aae4c10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c4496fb12df0aa56164bed88a35778') in 0.043682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 56.249777 seconds.
-  path: Assets/Objects/Keyboard/Materials
-  artifactKey: Guid(570f0ae9166793e4399e8300fd811316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Keyboard/Materials using Guid(570f0ae9166793e4399e8300fd811316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c5811b85c25cea21e8e6f4c9d98b85') in 0.015677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.033588 seconds.
-  path: Assets/Objects/Keyboard/Textures
-  artifactKey: Guid(ceb63f4bb56520f4d8cf636d5731fb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Keyboard/Textures using Guid(ceb63f4bb56520f4d8cf636d5731fb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553fbb4f7537a5b243087c482e430170') in 0.004292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.913057 seconds.
-  path: Assets/Objects/Mouse
-  artifactKey: Guid(240a5aef0ba554e7696223ecd0d92009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Mouse using Guid(240a5aef0ba554e7696223ecd0d92009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21946d3c2c37d818e90cbeddf2f33b57') in 0.014788 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.800486 seconds.
-  path: Assets/Objects/Mouse/Textures
-  artifactKey: Guid(fcc529ac2640b9b41b12973e0daabc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Mouse/Textures using Guid(fcc529ac2640b9b41b12973e0daabc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7d88e36b3c6617faa1144456694013') in 0.005767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.578274 seconds.
-  path: Assets/Objects/Mouse/Materials
-  artifactKey: Guid(5eba156e260447447883599fba8c58e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Mouse/Materials using Guid(5eba156e260447447883599fba8c58e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce5022a4d0acf41c41bfcf780733e76') in 0.003273 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.860769 seconds.
-  path: Assets/Objects/Mouse/mouse_Hard Shiny Plastic Black1_AlbedoTransparency_sRGB.png
-  artifactKey: Guid(e0100d9622de74827ae615d7141e10dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Mouse/mouse_Hard Shiny Plastic Black1_AlbedoTransparency_sRGB.png using Guid(e0100d9622de74827ae615d7141e10dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a76c53345402e87fd67f81ab07e8d7a') in 0.025831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.010330 seconds.
-  path: Assets/Objects/Mouse/mouse_Hard Shiny Plastic Grey_Normal_Raw.png
-  artifactKey: Guid(da2b5a64e95d44858858f05bba94d65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Mouse/mouse_Hard Shiny Plastic Grey_Normal_Raw.png using Guid(da2b5a64e95d44858858f05bba94d65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b723308ccfdbf2dec15ee66631fc38c') in 0.022454 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.041989 seconds.
-  path: Assets/Objects/Mouse/mouse_Hard Shiny Plastic Black_AlbedoTransparency_sRGB.png
-  artifactKey: Guid(7ad6794cf6a374e43a7728cde23123e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Mouse/mouse_Hard Shiny Plastic Black_AlbedoTransparency_sRGB.png using Guid(7ad6794cf6a374e43a7728cde23123e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e9e3ad88c616684e2b6a2b7d51752a') in 0.018403 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 59.800691 seconds.
-  path: Assets/Objects/Mouse/mouse_Hard Shiny Plastic Grey_AlbedoTransparency_sRGB.png
-  artifactKey: Guid(62a54763fb6ae4f6589e06ddc31d9815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Mouse/mouse_Hard Shiny Plastic Grey_AlbedoTransparency_sRGB.png using Guid(62a54763fb6ae4f6589e06ddc31d9815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9f5878d1062186d3ca73b2c96970a5') in 0.032200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.905680 seconds.
-  path: Assets/Objects/Mouse/mouse_Rubber_AlbedoTransparency_sRGB.png
-  artifactKey: Guid(c4805a564785e45b9a285f397de2a1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Mouse/mouse_Rubber_AlbedoTransparency_sRGB.png using Guid(c4805a564785e45b9a285f397de2a1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a309e52bafaff90ca0cb27b63c2876a2') in 0.024411 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.502414 seconds.
-  path: Assets/Objects/Mouse/mouse.fbx
-  artifactKey: Guid(033fdddc40a4f4f818c9af20fb664961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Mouse/mouse.fbx using Guid(033fdddc40a4f4f818c9af20fb664961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5465ed872f5b9429fa2fc9eb2987576f') in 0.091996 seconds 
+  Time since last request: 23.432626 seconds.
+  path: Assets/Environments/Glazed Patio.exr
+  artifactKey: Guid(304c6f4633ecddb4990a78431cb42186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environments/Glazed Patio.exr using Guid(304c6f4633ecddb4990a78431cb42186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3838f7c8666ed0a6f2cf9f579c5e1518') in 0.111719 seconds 
