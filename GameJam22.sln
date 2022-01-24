@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipeline.Univer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Core.ShaderLibrary", "Unity.RenderPipelines.Core.ShaderLibrary.csproj", "{c45a7174-c7fb-4196-862b-1bc3aba410a4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{7560346d-bba2-4b15-bcd1-154ccda31a32}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Universal.Shaders", "Unity.RenderPipelines.Universal.Shaders.csproj", "{c86673f1-232e-d100-7e94-4454e58e1549}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary", "Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj", "{e2acbc0b-ae50-ad20-5cf9-6a182e618833}"
@@ -94,6 +96,8 @@ Global
 		{ec7de5c5-5e09-4153-b567-64efcb0e3f2d}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{c45a7174-c7fb-4196-862b-1bc3aba410a4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{c45a7174-c7fb-4196-862b-1bc3aba410a4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7560346d-bba2-4b15-bcd1-154ccda31a32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7560346d-bba2-4b15-bcd1-154ccda31a32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{c86673f1-232e-d100-7e94-4454e58e1549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{c86673f1-232e-d100-7e94-4454e58e1549}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{e2acbc0b-ae50-ad20-5cf9-6a182e618833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
