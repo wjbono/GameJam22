@@ -18,7 +18,16 @@ public class CodingScreen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Show the frameCount - shouldn't exceed 30 and should make the text stop at the max frames
         Debug.Log(frameCount);
+
+        // If a mouse button is pressed, don't continue - it doesn't count as input
+        if (Input.GetMouseButton(0) || Input.GetMouseButton(1) || Input.GetMouseButton(2))
+        {
+            return;
+        }
+
+        // If the mouse button wasn't down, then we can process for keystrokes
         if (Input.anyKey)
         {
             if (frameCount < MAX_FRAMES)
@@ -31,9 +40,13 @@ public class CodingScreen : MonoBehaviour
                 vidPlayer.Pause();
             }
         }
+
+        // If a key isn't paused, then we need to pause the code on the screen
         else
         {
             vidPlayer.Pause();
+            // If we've hit the max frames, let's reset them and make any keys being pressed
+            // no longer count as being pressed (ResetInputAxes)
             if (frameCount >= MAX_FRAMES)
             {
                 frameCount = 0;
