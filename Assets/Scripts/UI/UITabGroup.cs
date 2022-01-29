@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class UITabGroup : MonoBehaviour
 {
@@ -36,7 +35,7 @@ public class UITabGroup : MonoBehaviour
 	{
 		if(initialSelectedTab)
 		{
-			OnTabSelected(initialSelectedTab);
+			StartCoroutine(InitializeSelectedTab(initialSelectedTab));
 		}
 	}
 	#endregion
@@ -49,7 +48,10 @@ public class UITabGroup : MonoBehaviour
 			tabButtons = new List<UITabButton>();
 		}
 
-		tabButtons.Add(tabButton);
+		if (!tabButtons.Contains(tabButton))
+		{
+			tabButtons.Add(tabButton);
+		}
 	}
 
 	public void OnTabEnter(UITabButton tabButton)
@@ -81,15 +83,11 @@ public class UITabGroup : MonoBehaviour
 		{
 			if(i == index)
 			{
-				canvasGroupsToSwap[i].alpha = 1;
-				canvasGroupsToSwap[i].interactable = true;
-				canvasGroupsToSwap[i].blocksRaycasts = true;
+				UIUtilities.ChangeCanvasGroupActive(canvasGroupsToSwap[i], true);
 			}
 			else
 			{
-				canvasGroupsToSwap[i].alpha = 0;
-				canvasGroupsToSwap[i].interactable = false;
-				canvasGroupsToSwap[i].blocksRaycasts = false;
+				UIUtilities.ChangeCanvasGroupActive(canvasGroupsToSwap[i], false);
 			}
 		}
 	}
@@ -104,6 +102,15 @@ public class UITabGroup : MonoBehaviour
 			}
 			tabButton.Background.color = idleColor;
 		}
+	}
+	#endregion
+
+	#region Private Methods
+	private IEnumerator InitializeSelectedTab(UITabButton initialSelectedTab)
+	{
+		yield return new WaitForSeconds(0.1f);
+		Subscribe(initialSelectedTab);
+		OnTabSelected(initialSelectedTab);
 	}
 	#endregion
 }

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
@@ -27,12 +25,12 @@ public class UITabButton : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
         background = GetComponent<Image>();
         if(!background)
 		{
-            Debug.LogErrorFormat(gameObject, "[ERROR] {0} does not have a background image!", gameObject.name);
+            Debug.LogErrorFormat(gameObject, "{0} does not have a background image!", gameObject.name);
 		}
 
         if(!tabGroup)
 		{
-            Debug.LogErrorFormat(gameObject, "[ERROR] {0} does not have a UITabGroup assigned to subscribe to!", gameObject.name);
+            Debug.LogErrorFormat(gameObject, "{0} does not have a UITabGroup assigned to subscribe to!", gameObject.name);
 		}
         tabGroup.Subscribe(this);
     }
