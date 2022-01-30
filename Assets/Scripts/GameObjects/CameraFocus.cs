@@ -22,6 +22,7 @@ public class CameraFocus : MonoBehaviour
         Vector3 newPosition = new Vector3(-1.352f, 5.62699986f, 7.46999979f);
         newRotation = Quaternion.Euler(12.878f, 155f, -1.445f);
         transform.rotation = newRotation;
+        transform.position = newPosition;
     }
 
     public void FocusOnUIScreen()
