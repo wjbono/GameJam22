@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8da44a21ea99d5e4c80c55e5f2475a5d, type: 3}
   m_Name: ExampleEmail
   m_EditorClassIdentifier: 
-  emailTitle: Example Email
-  emailDescription: This is an example scenario. I am struggling with mental health
-    and I need some serious help!
+  emailTitle: This poor child...
+  emailDescription: This middle school student is being bullied by their fellow classmates.
+    Please provide some helpful advice and motivation to help them through this trying
+    time.
   optionPrompts:
-  - Encourage the user to stand up for themselves
-  - Flatter the user with compliments
-  - Encourage the user to get professional help
+  - Encourage the child to stand up for themselves
+  - Encourage the child to find an outlet for their pain and frustration
+  - Encourage the child to find like-minded friends
